@@ -1,0 +1,51 @@
+body {
+	background: url(../img/net.jpg);
+	background-size: auto 100%;
+	text-align:center;
+	color: #fff;
+	text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
+}
+.bg {
+	/*background: url(../img/citycoins.png);*/
+	/*background: url(../img/3coins.jpg);*/
+	background: url(../img/coins-bw.jpg);
+    background-position: center center;
+    background-repeat: repeat-y;
+	background-size: 100% auto;
+    height: 100%;
+}
+.info {
+    padding: 2em;
+    margin-top: 10%;
+    background-color: rgba(12, 11, 11, 0.56);
+    display: inline-block;
+}
+.coins {
+	background: url(../img/coins.jpg);
+	background-size: auto 100%;
+    background-repeat: repeat-x;
+    height: 50px;
+}
+.coins.last {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+h1 {
+	font-size: 5em;
+	margin-bottom: .5em;
+}
+h4 {
+	font-size: 2em;
+}
+
+.clock {
+	display: inline-block;
+	width: auto;
+}
+.flip-clock-divider .flip-clock-label {
+	/*color:#fff;*/
+	text-shadow: 1px 1px #fff;
+	font-size: 16px;
+}
