@@ -1,9 +1,18 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body {
-	background: url(../img/net.jpg);
+    margin: 0;
+    background: url(../img/net.jpg);
 	background-size: auto 100%;
 	text-align:center;
 	color: #fff;
 	text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
 }
 .bg {
 	/*background: url(../img/citycoins.png);*/
@@ -31,13 +40,21 @@ body {
 	bottom: 0px;
 	width: 100%;
 }
-
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
 h1 {
 	font-size: 5em;
+	margin-top: 20px;
 	margin-bottom: .5em;
 }
 h4 {
 	font-size: 2em;
+	margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .clock {
