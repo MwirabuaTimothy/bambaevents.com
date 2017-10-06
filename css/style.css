@@ -15,8 +15,6 @@ body {
     line-height: 1.42857143;
 }
 .bg {
-	/*background: url(../img/citycoins.png);*/
-	/*background: url(../img/3coins.jpg);*/
 	background: url(../img/coins-bw.jpg);
     background-position: center center;
     background-repeat: repeat-y;
@@ -62,7 +60,6 @@ h4 {
 	width: auto;
 }
 .flip-clock-divider .flip-clock-label {
-	/*color:#fff;*/
 	text-shadow: 1px 1px #fff;
 	font-size: 16px;
 }
