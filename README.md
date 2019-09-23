@@ -1,3 +1,1 @@
-# VPESA
-
-### Revolution is coming!
+# Bamba Events
